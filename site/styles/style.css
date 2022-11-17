@@ -13,6 +13,12 @@
     src: url('../fonts/OpenSans-Bold.ttf');
 }
 
+@font-face {
+    font-family:'RobotoSlab Bold' ;
+    src: url('../fonts/RobotoSlab-Bold.ttf');
+}
+
+
 .body{
     background-image: url("https://орфографика.рф/800/600/https/funart.pro/uploads/posts/2020-04/1587216240_14-p-zadnie-foni-dlya-saitov-53.jpg");
     background-size:100%;
@@ -22,19 +28,21 @@
 
 .h1{
     margin: 0px;
-    font-family:'OpenSans Regular', Arial, Helvetica, sans-serif;
+    font-family:'RobotoSlab Bold', Arial, Helvetica, sans-serif;
 }
 
 .divimg{
     width: 100vw;
-background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7nRJB4cHW9q4sCnZjfNkTqK8g5KBLH0PLK4RYGZer2jI417nrFfzyP2i02Q_xbW4siKA&usqp=CAU');
+    
     display: flex;
-    justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+    
 }
 
 .h2{
     color: rgb(172, 231, 116);
-    font-family:'OpenSans Bold', Arial, Helvetica, sans-serif;
+    font-family:'RobotoSlab Bold', Arial, Helvetica, serif;
 }
 
 .ul-font{
@@ -42,11 +50,12 @@ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7n
     color: rgb(245, 118, 27);
 }
 
-.color-p,.konf{
+.color-p,.konfuc{
     color: aqua;
     font-family:'OpenSans Regular', Arial, Helvetica, sans-serif;
 
-    position: relative;
+    max-width: 500px;
+
     top: 10px;
 }
 
@@ -104,6 +113,10 @@ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7n
 .divp{
     display: flex;
     justify-content: space-around;
+}
+
+.color-k{
+    color: aqua;
 }
 
 
