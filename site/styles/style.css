@@ -111,13 +111,19 @@
 }
 
 .divp{
+   
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
 }
 
 .color-k{
     color: aqua;
 }
 
+.icon{
+position: relative;
+top:5px;
+right: 7px;
+}
 
 
